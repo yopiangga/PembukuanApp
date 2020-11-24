@@ -61,6 +61,12 @@
               <span class="link-title">Report All Transaction</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="transaction-not-paid.html" class="nav-link">
+              <i class="link-icon" data-feather="file-minus"></i>
+              <span class="link-title">Transaction Not Paid</span>
+            </a>
+          </li>
           <li class="nav-item active">
             <a href="create-user-admin.html" class="nav-link">
               <i class="link-icon" data-feather="user-plus"></i>
@@ -192,8 +198,68 @@
         
         <div class="d-flex justify-content-between align-items-center flex-wrap grid-margin">
           <div>
-            <h4 class="mb-3 mb-md-0">Create User</h4>
+            <h4 class="mb-3 mb-md-0">Create User Admin</h4>
           </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 grid-margin">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Form Create User</h6>
+                <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <form class="forms-sample">
+                  <div class="form-group row">
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" class="form-control" name="name" type="text">
+                      </div>
+                      <div class="form-group">
+                        <label for="team">Team</label>
+                        <select class="form-control" id="team">
+                          <option selected disabled>Select team</option>
+                          <option>Tim A</option>
+                          <option>Tim B</option>
+                          <option>Tim C</option>
+                          <option>Tim D</option>
+                          <option>Tim E</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="position">Position</label>
+                        <select class="form-control" id="position">
+                          <option selected disabled>Select position</option>
+                          <option>Admin</option>
+                          <option>Leader</option>
+                          <option>User</option>
+                        </select>
+                      </div>
+                    
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input id="phone" class="form-control" name="phone" type="text">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" class="form-control" name="email" type="text">
+                      </div>
+                      <div class="form-group">
+                        <label for="password">Password</label>
+                        <input id="password" class="form-control" name="password" type="text">
+                      </div>
+                    </div>
+                  </div>
+                  <input class="btn btn-primary" type="submit" value="Create">
+                  <a href="create-users-admin.html" class="btn btn-light">Cancel</a>
+
+                </form>
+              </div>
+            </div>
+          </div>
+
         </div>
 
 			</div>
