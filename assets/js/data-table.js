@@ -24,7 +24,11 @@ $(function() {
     // });
 
     $('#myTable').DataTable({
-      dom: '<"html5buttons">Bflrtip',
+      dom: 'Bflrtip',
+      rowReorder: {
+        selector: 'td:nth-child(5)'
+      },
+      responsive: true,
       buttons: [
         'copy', 'excel', 'pdf', 'print'
       ]
