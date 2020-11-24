@@ -24,7 +24,7 @@ $(function() {
     // });
 
     $('#myTable').DataTable({
-      dom: 'Bfrtip',
+      dom: '<"html5buttons">Bflrtip',
       buttons: [
         'copy', 'excel', 'pdf', 'print'
       ]
