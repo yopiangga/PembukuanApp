@@ -64,6 +64,11 @@ create barang :
 - nama barang
 - jenis barang
 
+//add by yopi
+- satuan barang
+- harga beli
+- nama suplier
+//end add by yopi
 
 
 
