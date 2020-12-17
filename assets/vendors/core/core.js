@@ -129,10 +129,11 @@
       var n, r = 0;
       if (d(e)) {
         for (n = e.length; r < n; r++)
-          if (!1 === t.call(e[r], r, e[r])) break
-      } else
+          if (!1 === t.call(e[r], r, e[r])) break;
+      } else {
         for (r in e)
           if (!1 === t.call(e[r], r, e[r])) break;
+      }
       return e
     },
     trim: function (e) {
